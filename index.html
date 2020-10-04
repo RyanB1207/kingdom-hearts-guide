@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>
+			Kingdom Hearts
+        </title>
+        <link rel="stylesheet" href="./styles/jquery.mobile.structure-1.4.5.min.css" />
+        <link rel="stylesheet" href="./styles/jquery.mobile.theme-1.4.5.min.css" />
+        <link rel="stylesheet" href="./styles/jquery.mobile.inline-svg-1.4.5.min.css" />
+        <link rel="stylesheet" href="./custom.css" />
+        <script src="./scripts/jquery-1.9.1.js"></script>
+        <script src="./scripts/jquery.mobile-1.4.5.min.js"></script>
+    </head>
+    <body>
+        <!-- Home -->
+        <div data-role="page" id="index">
+            <div data-theme="a" data-role="header">
+                <h1>
+                    Kingdom Hearts
+                </h1>
+            </div>
+            <div data-role="content" style="padding: 15px">
+                <ul data-role="listview" data-divider-theme="b" data-inset="true">
+                    <li data-role="list-divider" role="heading">
+                        Trinities
+                    </li>
+                    <li>
+                        <a href="trinity-color.html" data-transition="slide" rel="external">
+                            By color
+                        </a>
+                    </li>
+                    <li>
+                        <a href="trinity-location.html" data-transition="slide" rel="external">
+                            By location
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#trinity-learn" data-transition="slide">
+                            Where to learn
+                        </a>
+                    </li>
+                </ul>
+
+                <ul data-role="listview" data-divider-theme="b" data-inset="true">
+                    <li data-role="list-divider" role="heading">
+                        Dalmations
+                    </li>
+                    <li>
+                        <a href="dalmations-by-number.html" data-transition="slide" rel="external">
+                            By number
+                        </a>
+                    </li>
+                    <li>
+                        <a href="dalmations-by-location.html" data-transition="slide" rel="external">
+                            By location
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#dalmation-rewards" data-transition="slide">
+                            Rewards
+                        </a>
+                    </li>
+                </ul>
+
+                <ul data-role="listview" data-divider-theme="b" data-inset="true">
+                    <li data-role="list-divider" role="heading">
+                        Clock Tower
+                    </li>
+                    <li>
+                        <a href="#clock-tower-rewards" data-transition="slide">
+                            Rewards
+                        </a>
+                    </li>
+                </ul>
+
+                <ul data-role="listview" data-divider-theme="b" data-inset="true">
+                    <li data-role="list-divider" role="heading">
+                        Items
+                    </li>
+                    <li>
+                        <a href="item-synthesis.html" data-transition="slide" rel="external">
+                            Synthesis Item Requirements
+                        </a>
+                    </li>
+                    <li>
+                        <a href="item-synthesis-material.html" data-transition="slide" rel="external">
+                            Synthesis Materials
+                        </a>
+                    </li>
+                </ul>
+
+                <ul data-role="listview" data-divider-theme="b" data-inset="true">
+                    <li data-role="list-divider" role="heading">
+                        Introduction
+                    </li>
+                    <li>
+                        <a href="#intro-choose-path" data-transition="slide">
+                            Choosing your path
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#intro-adventure-begins" data-transition="slide">
+                            Adventure begins
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#abilities" data-transition="slide">
+                            Abilities
+                        </a>
+                    </li>
+                </ul>
+			</div>
+        </div>
+		
+		
+        <div data-role="page" id="intro-choose-path">
+            <div data-theme="a" data-role="header">
+				<a data-role="button" data-rel="back" data-transition="slide" href="">
+					Back
+				</a>
+                <h3>
+                    Introduction: Choosing Path
+                </h3>
+            </div>
+            <div data-role="content" style="padding: 15px">
+                <ul data-role="listview" data-divider-theme="b" data-inset="true">
+                    <li>
+                        <h3 class="ul-li-heading">Dream Sword</h3>
+						<p class="ul-li-desc">Strength +2, -1 if discarded</p>
+                    </li>
+                    <li>
+                        <h3 class="ul-li-heading">Dream Rod</h3>
+						<p class="ul-li-desc">MP +1, -1 if discarded</p>
+                    </li>
+                    <li>
+                        <h3 class="ul-li-heading">Dream Shield</h3>
+						<p class="ul-li-desc">Defense +2, -1 if discarded</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div data-role="page" id="intro-adventure-begins">
+            <div data-theme="a" data-role="header">
+				<a data-role="button" data-rel="back" data-transition="slide" href="">
+					Back
+				</a>
+                <h3>
+                    Introduction: Adventure Begins
+                </h3>
+            </div>
+            <div data-role="content" style="padding: 15px">
+                <ul data-role="listview" data-divider-theme="b" data-inset="true">
+                    <li>
+                        <h3 class="ul-li-heading">Dawn</h3>
+						<p class="ul-li-desc">Level up fast early, slower later.</p>
+                    </li>
+                    <li>
+                        <h3 class="ul-li-heading">Midday</h3>
+						<p class="ul-li-desc">Level up average speed throughout.</p>
+                    </li>
+                    <li>
+                        <h3 class="ul-li-heading">Dusk</h3>
+						<p class="ul-li-desc">Level up slow early, faster later.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div data-role="page" id="abilities">
+            <div data-theme="a" data-role="header">
+				<a data-role="button" data-rel="back" data-transition="slide" href="">
+					Back
+				</a>
+                <h3>
+                    Abilities
+                </h3>
+            </div>
+            <div data-role="content" style="padding: 15px">
+                <p>The following table shows the order abilities are given depending on whether the Dream Sword, Dream Shield, or Dream Rod are chosen.</p>
+
+				<table data-role="table" data-mode="columntoggle" class="table-stroke table-stripe">
+                    <thead>
+    				    <tr><th>Level</th><th>Sword</th><th>Shield</th><th>Rod</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td> 9   </td><td> Combo Plus         </td><td> Guard              </td><td> Scan              </td></tr>
+                        <tr><td> 12  </td><td> Vortex             </td><td> Scan               </td><td> Treasure Magnet   </td></tr>
+                        <tr><td> 15  </td><td> Scan               </td><td> Lucky Strike       </td><td> MP Haste          </td></tr>
+                        <tr><td> 18  </td><td> Blitz              </td><td> Second Chance      </td><td> Counterattack     </td></tr>
+                        <tr><td> 21  </td><td> Berserk            </td><td> Counterattack      </td><td> Critical Plus     </td></tr>
+                        <tr><td> 24  </td><td> Counterattack      </td><td> Jackpot            </td><td> Guard             </td></tr>
+                        <tr><td> 27  </td><td> Air Combo Plus     </td><td> Treasure Magnet    </td><td> Aerial Sweep      </td></tr>
+                        <tr><td> 30  </td><td> Aerial Sweep       </td><td> --                 </td><td> Treasure Magnet   </td></tr>
+                        <tr><td> 33  </td><td> Treasure Magnet    </td><td> Blitz              </td><td> MP Rage           </td></tr>
+                        <tr><td> 36  </td><td> Guard              </td><td> MP Rage            </td><td> Berserk           </td></tr>
+                        <tr><td> 39  </td><td> --                 </td><td> Treasure Magnet    </td><td> Lucky Strike      </td></tr>
+                        <tr><td> 42  </td><td> --                 </td><td> Combo Plus         </td><td> --                </td></tr>
+                        <tr><td> 45  </td><td> MP Haste           </td><td> Vortex             </td><td> --                </td></tr>
+                        <tr><td> 48  </td><td> Critical Plus      </td><td> Berserk            </td><td> Second Chance     </td></tr>
+                        <tr><td> 51  </td><td> Second Chance      </td><td> Critical Plus      </td><td> MP Rage           </td></tr>
+                        <tr><td> 54  </td><td> --                 </td><td> --                 </td><td> Jackpot           </td></tr>
+                        <tr><td> 57  </td><td> MP Rage            </td><td> Air Combo Plus     </td><td> Vortex            </td></tr>
+                        <tr><td> 60  </td><td> Treasure Magnet    </td><td> Aerial Sweep       </td><td> Air Combo Plus    </td></tr>
+                        <tr><td> 63  </td><td> Jackpot            </td><td> MP Haste           </td><td> Blitz             </td></tr>
+                        <tr><td> 66  </td><td> MP Rage            </td><td> MP Rage            </td><td> Combo Plus        </td></tr>
+                        <tr><td> 69  </td><td> Lucky Strike       </td><td> Critical Plus      </td><td> Critical Plus     </td></tr>
+                        <tr><td> 72  </td><td> Combo Plus         </td><td> --                 </td><td> --                </td></tr>
+                        <tr><td> 75  </td><td> Air Combo Plus     </td><td> Combo Plus         </td><td> Air Combo Plus    </td></tr>
+                        <tr><td> 78  </td><td> Critical Plus      </td><td> Air Combo Plus     </td><td> Combo Plus        </td></tr>
+                        <tr><td> 84  </td><td> Combo Plus         </td><td> Combo Plus         </td><td> Combo Plus        </td></tr>
+                        <tr><td> 90  </td><td> Critical Plus      </td><td> Critical Plus      </td><td> Critical Plus     </td></tr>
+                        <tr><td> 96  </td><td> Combo Plus         </td><td> Combo Plus         </td><td> Combo Plus        </td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+        <div data-role="page" id="trinity-learn">
+            <div data-theme="a" data-role="header">
+                <a data-role="button" data-rel="back" data-transition="slide" href="">
+					Back
+				</a>
+                <h3>
+                    Learning Trinity Abilities
+                </h3>
+            </div>
+            <div data-role="content" style="padding: 15px">
+                <ul data-role="listview" data-divider-theme="b" data-inset="true">
+                    <li>
+                        <h3 class="ul-li-heading">Blue Trinity</h3>
+						<p class="ul-li-desc">Defeat the Guard Armour in Traverse Town, District 2.</p>
+                    </li>
+                    <li>
+                        <h3 class="ul-li-heading">Red Trinity</h3>
+						<p class="ul-li-desc">Lock the Deep Jungle keyhole.</p>
+                    </li>
+                    <li>
+                        <h3 class="ul-li-heading">Green Trinity</h3>
+						<p class="ul-li-desc">Lock the Agrabah keyhole.</p>
+                    </li>
+                    <li>
+                        <h3 class="ul-li-heading">Yellow Trinity</h3>
+						<p class="ul-li-desc">Complete the Phil, Pegasus, and Hercules Cup at the Coliseum.</p>
+                    </li>
+                    <li>
+                        <h3 class="ul-li-heading">White Trinity</h3>
+						<p class="ul-li-desc">Defeat Riku in the first Hollow Bastion encounter.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+		
+		
+        <div data-role="page" id="dalmation-rewards">
+            <div data-theme="a" data-role="header">
+				<a data-role="button" data-rel="back" data-transition="slide" href="">
+					Back
+				</a>
+                <h3>
+                    Dalmation Rewards
+                </h3>
+            </div>
+            <div data-role="content" style="padding: 15px">
+                <table data-role="table" data-mode="columntoggle" class="table-stroke table-stripe">
+                    <thead>
+                        <tr><th>Puppies Saved</th><th>Reward</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>12</td><td>Curaga-G</td></tr>
+                        <tr><td>21</td><td>Firaga-G</td></tr>
+                        <tr><td>30</td><td>Thundara-G</td></tr>
+                        <tr><td>42</td><td>Mythril Shard</td></tr>
+                        <tr><td>51</td><td>Mythril, Torn Page</td></tr>
+                        <tr><td>60</td><td>Megalixir</td></tr>
+                        <tr><td>72</td><td>Orichalcum</td></tr>
+                        <tr><td>81</td><td>Ultima-G</td></tr>
+                        <tr><td>90</td><td>Ribbon</td></tr>
+                        <tr><td>99</td><td>Complete gummi collection, Aero upgrade</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+		
+		
+        <div data-role="page" id="clock-tower-rewards">
+            <div data-theme="a" data-role="header">
+				<a data-role="button" data-rel="back" data-transition="slide" href="">
+					Back
+				</a>
+                <h3>
+                    Clock Tower Rewards
+                </h3>
+            </div>
+            <div data-role="content" style="padding: 15px">
+                <table data-role="table" data-mode="columntoggle" class="table-stroke table-stripe">
+                    <thead>
+                        <tr><th>Clock Time</th><th>Reward</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>1:00</td><td>Orichalcum</td></tr>
+                        <tr><td>2:00</td><td>Power Up</td></tr>
+                        <tr><td>3:00</td><td>Mythril Shard</td></tr>
+                        <tr><td>4:00</td><td>Power Up</td></tr>
+                        <tr><td>5:00</td><td>AP Up</td></tr>
+                        <tr><td>6:00</td><td>Mythril</td></tr>
+                        <tr><td>7:00</td><td>AP Up</td></tr>
+                        <tr><td>8:00</td><td>Defense Up</td></tr>
+                        <tr><td>9:00</td><td>Orichalcum</td></tr>
+                        <tr><td>10:00</td><td>Defense Up</td></tr>
+                        <tr><td>11:00</td><td>Mythril Shard</td></tr>
+                        <tr><td>12:00</td><td>Megalixir</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
